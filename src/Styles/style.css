@@ -1,0 +1,164 @@
+.title{
+    color: rgb(154, 74, 74);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box{
+    background-color: #9ACD32	;
+    padding: 5px;
+    border:#cbd5b8;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.box:hover{
+    background-color: #8792c7;
+    color:#eaa5d7;
+}
+.backgr:hover{
+    background-color: #4CAF50; 
+    color:brown; 
+}
+
+.backgr{
+    background-color: #d3a8e5	;
+    padding: 5px;
+    border: #9ACD32;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.edit{
+    background-color: #6e7b69;
+    color: #473f3f;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.edit:hover{
+    background-color: #5d98ce;
+    color: #c6d429;
+}
+
+.up{
+    background-color: #BC8F8F;
+    color: #2F4F4F;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.up:hover{
+    background-color: #a0b3eb;
+    color:#9f45c6;
+}
+.down{
+    background-color: #e9d86b;
+    color:#3b7cec;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.down:hover{
+    background-color: #f53a4f;
+    color:#03070e; 
+}
+
+.div{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.sia li{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  .input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.newtext{
+    margin-left: 10px;
+    border-radius: 4px;
+    border-color: #c6d429;
+    color: #f41e16;
+    background-color: #d1b8db;
+}
+
+.newtext:hover{
+    background-color: #6a80cc;
+    color:#000309; 
+}
+
+.deleteall{
+    background-color: #84b08a;
+    color:#12336d;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 18px 10px;
+}
+
+.deleteall:hover{
+    background-color: #e8929c;
+    color:#03070e; 
+}
+
+.deletemark{
+    background-color: #79cecf;
+    color:#12336d;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.deletemark:hover{
+    background-color: #bb9cac;
+    color:#4d4c18; 
+}
+.buttonsave{
+    background-color: #79cecf;
+    color:#12336d;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonsave:hover{
+    background-color: #bb9cac;
+    color:#4d4c18; 
+}
+
+#root{
+    background-color: rgb(225, 178, 178);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.newtext-item{
+    background-color: #c8d3e5;
+    color: #95ce7e;
+}
